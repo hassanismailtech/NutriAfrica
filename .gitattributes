@@ -1,0 +1,10 @@
+* text=auto
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.ttf binary
+# Preserve the upstream font licence verbatim, including its whitespace.
+app/public/FONT-LICENSE.txt -whitespace

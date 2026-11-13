@@ -1,0 +1,25 @@
+# Public repository boundary: source only. Local strategy/source documents stay private.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/app/
+
+# Dependencies, secrets, runtime data and generated verification artifacts
+**/node_modules/
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.sqlite
+**/*.sqlite-*
+**/*.db
+**/data/
+**/images/
+**/.taste-skill/
+**/verification/
+**/latest-test-output.txt
+**/*.log
+**/.DS_Store
+**/Thumbs.db
+**/coverage/
